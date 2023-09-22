@@ -1,0 +1,9 @@
+
+# CLI tool, only in development environment.
+# https://goframe.org/pages/viewpage.action?pageId=3673173
+gfcli:
+  gen:
+    dao:
+      #      - link: "mysql:root:imadmin@tcp(127.0.0.1:3306)/circle"
+      - link: "mysql:root:imadmin@tcp(127.0.0.1:3306)/test?charset=utf8mb4&parseTime=True&loc=UTC"
+        jsonCase: "CamelLower"
